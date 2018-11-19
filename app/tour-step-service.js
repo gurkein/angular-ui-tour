@@ -76,6 +76,8 @@ export default function (Tether, $compile, $document, $templateCache, $rootScope
                 display: 'block'
             });
 
+            step.reposition();
+
             //scroll to popup
             focusPopup(step);
 
